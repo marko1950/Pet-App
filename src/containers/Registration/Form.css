@@ -1,0 +1,251 @@
+.form-container {
+  margin: 100px auto;
+  width: 1000px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-content-left {
+  border-radius: 10px 0 0 10px;
+  background: #fff9ca;
+  position: relative;
+}
+
+.form-img {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-img-2 {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #fff;
+}
+
+.form-content-right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: #ffdeb4;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 20px;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.form-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.form-input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+.form-input-btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: rgb(178, 164, 255);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: rgb(117, 96, 240);
+  transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: black;
+  width: 80%;
+  text-align: center;
+}
+
+.form-input-login a {
+  text-decoration: none;
+  color: rgb(117, 96, 240);
+  font-weight: 600;
+}
+
+.dog-size-containers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dog-size-containers div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 100px;
+
+  cursor: pointer;
+}
+
+.small img {
+  width: 25px;
+  padding-bottom: 15px;
+}
+
+.medium img {
+  width: 30px;
+  padding-bottom: 10px;
+}
+.large img {
+  width: 40px;
+}
+
+.border {
+  border: 2px rgb(117, 96, 240) solid;
+  border-radius: 10%;
+}
+
+.dog-size-wrapper {
+  text-align: center;
+}
+
+.form-input2 {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  margin-top: 5px;
+}
+
+.dog-form-div {
+  margin: 10px;
+  width: 60%;
+}
+
+.dog-input label {
+  padding: 10px;
+}
+.dog-input {
+  padding: 8px;
+}
+
+.dog-form-div h2 {
+  text-align: center;
+}
+
+.dog-form-div_wrapper {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.dog_right_container img {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  border: 2px rgb(117, 96, 240) solid;
+}
+.dog_right_container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.form-input-btn3 {
+  width: 25%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: rgb(231 92 18);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 80%;
+  left: 70%;
+}
+
+.form-input-btn3:hover {
+  background: rgb(231 92 18/75%);
+}

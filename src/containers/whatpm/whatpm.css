@@ -1,0 +1,149 @@
+.pm__whatpm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1%;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(14, 14, 127, 1) 0%,
+    rgba(127, 63, 127, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(14, 14, 127, 1) 0%,
+    rgba(127, 63, 127, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(14, 14, 127, 1) 0%,
+    rgba(127, 63, 127, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7F3F7F', endColorstr='#0E0E7F', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(14, 14, 127, 1) 0%,
+    rgba(127, 63, 127, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(14, 14, 127, 1) 0%,
+    rgba(127, 63, 127, 1) 100%
+  );
+}
+
+.pm__whatpm-feature {
+  display: flex;
+}
+
+/* Customizing feature component as per needs */
+.pm__whatpm-feature .pm__features-container__feature {
+  margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.pm__whatpm-feature .pm__features-container_feature-text {
+  max-width: 700px;
+}
+
+.pm__whatpm-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem 0 2rem;
+}
+
+.pm__whatpm-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+}
+
+.pm__whatpm-heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+.pm__whatpm-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.pm__whatpm-container .pm__features-container__feature {
+  flex: 1;
+  margin: 1rem;
+  min-width: 210px;
+  display: unset;
+  flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.pm__whatpm-container .pm__features-container_feature-text {
+  margin-top: 0.5rem;
+}
+
+.pm__features-container__feature-title {
+  max-width: none;
+}
+
+@media screen and (max-width: 850px) {
+  .pm__whatpm-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+
+  .pm__whatpm-heading p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  /* Customizing feature component as per needs */
+  .pm__whatpm-feature .pm__features-container__feature {
+    flex-direction: column;
+  }
+
+  /* Customizing feature component as per needs */
+  .pm__whatpm-feature .pm__features-container_feature-text {
+    margin-top: 0.5rem;
+  }
+
+  .pm__whatpm-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  /* Customizing feature component as per needs */
+  .pm__whatpm-container .pm__features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
+}

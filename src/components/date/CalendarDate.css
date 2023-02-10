@@ -1,0 +1,134 @@
+.CalendarDate__button {
+  background: #5e5df0;
+  border-radius: 999px;
+
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.CalendarDate__calendar-icon {
+  width: 20px;
+  margin-top: 2px;
+}
+
+.CalendarDate__span {
+  background: white;
+  font-size: large;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5%;
+  border: solid #5e5df0 5px;
+}
+
+.CalendarDate__div {
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-basis: 40%;
+}
+
+.calendar_section_wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 8rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  align-items: baseline;
+  padding-bottom: 3rem;
+}
+
+.pm__header-content1 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.gradient__text1 {
+  background: linear-gradient(to right, #fffffc 0%, #624aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pm__header-content1 h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+}
+
+.pm__header-content1 {
+  flex-basis: 60%;
+  padding-right: 30px;
+}
+
+.dog_pointing {
+  width: 250px;
+  padding-left: 4rem;
+}
+
+.choices__span {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(180 0 255);
+  margin-top: 1.5rem;
+}
+
+.choices__named {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  margin-top: 1.5rem;
+  padding-right: 2rem;
+}
+
+.confirm__button {
+  background: #f36602;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: -moz-fit-content;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-bottom: 10px;
+}

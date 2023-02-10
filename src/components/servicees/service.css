@@ -1,0 +1,108 @@
+.services__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 1rem;
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+.services__wrapper img {
+  width: 70px;
+}
+
+.services__wrapper h2 {
+  color: whitesmoke;
+}
+
+.services__div {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.services__div div {
+  width: 250px;
+}
+
+.services__quote {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 4rem;
+  padding: 2rem;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: whitesmoke;
+
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+}
+
+.services__heading {
+  font-family: var(--font-family);
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 2rem;
+  background: linear-gradient(to right, #fffffc 0%, #624aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services__quote img {
+  width: 100px;
+  padding-right: 2rem;
+}
+
+.border {
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #743ad5, #d53a9d);
+}
+
+@media screen and (max-width: 641px) {
+  .services__quote {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 15px;
+  }
+  .services__wrapper img {
+    width: 50px;
+  }
+
+  .services__wrapper h2 {
+    font-size: 15px;
+  }
+  .services__div div {
+    width: 140px;
+    margin: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 773px) and (min-width: 500px) {
+  .services__div {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 773px) {
+  .services__div {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}

@@ -1,0 +1,35 @@
+.questions__heading {
+  color: whitesmoke;
+}
+
+.questions__wrapper {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.questions__image img {
+  padding-top: 3rem;
+  object-fit: cover;
+  width: 400px;
+}
+.questions__question {
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 610px) {
+  .questions__image {
+    display: none;
+  }
+  .questions__question {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .questions__image {
+    display: none;
+  }
+  .questions__question {
+    padding-bottom: 3rem;
+  }
+}

@@ -1,0 +1,139 @@
+.pm__features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.__features-contact {
+  padding-top: 3rem;
+}
+.pm__features-heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.pm__features-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  color: whitesmoke;
+}
+
+.pm__features-heading p {
+  color: var(--color-subtext);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--font-family);
+
+  margin-top: 2rem;
+}
+.features_input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1rem 0 1rem;
+}
+
+.features_input input {
+  flex: 2 1;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: var(--color-footer);
+  border: 2px solid var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.features_input button {
+  flex: 0.6 1;
+  width: 100%;
+  min-height: 50px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  background: #ff4820;
+  border: 2px solid #ff4820;
+  padding: 0 1rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.pm__features-heading img {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 400px;
+  border-radius: 2%;
+}
+
+.pm__features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.__features_question {
+  color: whitesmoke;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--font-family);
+}
+
+@media screen and (max-width: 1158px) {
+  .pm__features {
+    flex-direction: column;
+  }
+
+  .pm__features-heading {
+    margin: 0 0 2rem 0;
+  }
+  .dog_sitter {
+    display: none;
+  }
+  .pm__features-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .pm__features-container {
+    padding-top: 0;
+  }
+  .pm__features-container__feature {
+    margin: 0;
+    flex-direction: column;
+  }
+  .pm__features-heading {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .__features-contact {
+    padding-left: 3rem;
+  }
+  .dog_sitter {
+    display: unset;
+  }
+}
