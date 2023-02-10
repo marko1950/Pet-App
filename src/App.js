@@ -24,6 +24,8 @@ const App = () => (
             <Header />
           </div>
           <Services />
+          <Services />
+
           <Whatpm />
           <Features />
           <Slider />
